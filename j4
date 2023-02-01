@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a,b,c;
+	float x;
+	printf("\nenter 2 Nos:");
+	scanf("%d%d",&a,&b);
+	c=a+b;
+	printf("\ntotal:%d",c);
+	c=a-b;
+	printf("\ndifference:%d",c);
+	c=a*b;
+	printf("\nmul:%d",c);
+	x=(float)a/(float)b;
+	printf("\ndiv:%0.2f",x);
+	c=a%b;
+	printf("\nmod:%d",c);
+	return 0;
+}
