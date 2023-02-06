@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+	int std,staff,total;
+	printf("enter the total users:");
+	scanf("%d",&total);
+	printf("enter the staff users:");
+	scanf("%d",&staff);
+	{
+	 std=total-staff;
+	}
+	printf("the total students is:%d");
+	return 0;
+}
+	
