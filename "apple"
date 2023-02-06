@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	printf("\n\"apple\"");
+	printf("\n\"grape\"");
+	printf("\n\"orange\"");
+
+	return 0;
+}
